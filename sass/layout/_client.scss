@@ -1,0 +1,32 @@
+ .client {
+     padding-top: 94px;
+ }
+
+ .client__list {
+     display: flex;
+     column-gap: 30px;
+ }
+
+ .client__icon {
+     fill: currentColor;
+ }
+
+ .client__link {
+     display: flex;
+
+     width: 170px;
+     height: 92px;
+     align-items: center;
+     justify-content: center;
+
+     border: 1px solid var(--social-logo);
+     border-radius: 4px;
+     color: var(--social-logo);
+     transition: border-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
+    &:hover,
+    &:focus {
+        border-color: var(--accent-blue-color);
+        color: var(--accent-blue-color);
+    }
+ }
+

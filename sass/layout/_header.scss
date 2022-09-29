@@ -1,0 +1,50 @@
+.menu {
+    display: none;
+}
+.contacts {
+    display: none;
+}
+.page-header{
+    padding-top: 16px;
+    padding-bottom: 16px;
+ }
+.page-header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.open-menu-btn{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+}
+.open-menu-btn__icon{
+    width: 40px;
+    height: 40px;
+}
+
+// .page-header {
+//     padding-top: 24px;
+//     padding-bottom: 25px;
+//     border-bottom: 1px solid #ECECEC;
+
+//     background-color: var(--main-white);
+// }
+
+// .page-header-container {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+
+// }
+
+// .page-navigation {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .page-navigation__menu {
+//     margin-left: 93px;
+// }
+
